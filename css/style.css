@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    background-color: #0BD99B;
+    overflow-x: hidden;
+}
+
+
+#cabecalho {
+    display: block;
+
+    position: sticky;
+    top: 0px;
+
+    height: 60px;
+    width: auto;
+
+    background-color: black;
+}
+.englishContent {
+    padding-top: 15px;
+    padding-left: 5px;
+
+    font-size: 30px;
+
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+
+#banner {
+    height: 400px;
+    width: 94%;
+    
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgb(255, 255, 255);
+
+    border: 2px solid #0BD926;
+}
+
+
+
+
+#principal {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 800px;
+    width: 96%;
+
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+
+    background-color: #00F064;
+}
+#content-Font {
+    position: relative;
+    top: 150px;
+    right: -20px;
+
+    height: 600px;
+    width: 96%;
+
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /*background-color: black;*/
+}
+
+.content {
+    margin-top: 44px;
+    margin-right: auto;
+    margin-left: auto;
+
+    height: 40px;
+    width: 80%;
+
+    text-align: center;
+    color: #02F8F4;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;    
+
+    background-color: #39FC0D;
+}
+.content:hover {
+    color: #0BD926;
+    background-color: #0BD99B;
+    font-size: 30px;
+    height: 45px;
+}
+
+
+#sobre {
+    height: 300px;
+    width: 95%;
+
+    border-radius: 5%;
+
+    text-align: center;
+    
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #000;
+}
+.paragrafo_Sobre {
+    color: white;
+}
