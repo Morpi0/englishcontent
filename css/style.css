@@ -11,13 +11,17 @@ a {
 }
 
 body{
-    background-color: #0BD99B;
+    background-color: #33384e;
     overflow-x: hidden;
+}
+
+.centralize {
+    text-align: center;
 }
 
 
 #cabecalho {
-    display: block;
+    border-bottom: #f1325b solid 4px;
 
     position: sticky;
     top: 0px;
@@ -34,11 +38,18 @@ body{
     font-size: 30px;
 
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: #cc2649;
 }
 
+#Banner {
+    height: 400px;
+    width: 90%;
 
+    border: #66324c solid 3px;
 
+    margin-top: 60px;
+}
+/*
 #banner {
     height: 400px;
     width: 94%;
@@ -51,11 +62,12 @@ body{
 
     border: 2px solid #0BD926;
 }
-
+*/
 
 
 
 #principal {
+    padding-top: 20px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -63,25 +75,31 @@ body{
     height: 800px;
     width: 96%;
 
-    border-top-left-radius: 40%;
-    border-top-right-radius: 40%;
-
-    background-color: #00F064;
-}
-#content-Font {
-    position: relative;
-    top: 150px;
-    right: -20px;
-
     height: 600px;
     width: 96%;
 
+    background-color: #003e4f;
+
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+    
+}
+#content-Font {
+    /*
+    position: relative;
+    top: 150px;
+    right: -20px;
+*/
     text-align: center;
+
     font-family:Georgia, 'Times New Roman', Times, serif;
     /*background-color: black;*/
 }
 
 .content {
+    border: #992c4b solid 2px;
+
     margin-top: 44px;
     margin-right: auto;
     margin-left: auto;
@@ -90,35 +108,43 @@ body{
     width: 80%;
 
     text-align: center;
-    color: #02F8F4;
+
+    color:#003e4f;
+
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;    
 
-    background-color: #39FC0D;
+    background-color: #992c4b;
 }
 .content:hover {
-    color: #0BD926;
-    background-color: #0BD99B;
+    border: #66324c solid 2px;
+
+    color: #33384e;
+
+    background-color: #f1325b;
+
     font-size: 30px;
     height: 45px;
 }
 
 
 #sobre {
-    height: 300px;
+    
+    height: 250px;
     width: 95%;
 
-    border-radius: 5%;
+    border-radius: 2%;
 
     text-align: center;
     
-    margin-top: 4px;
+    margin-top: 2px;
     margin-left: auto;
     margin-right: auto;
 
     background-color: #000;
 }
 .paragrafo_Sobre {
+    margin-top: 25px;
     color: white;
 }

@@ -1,30 +1,21 @@
-English content: versão 0.1
+English content: versão 0.2
 
-    fiz o conceito basico do site (apenas no index.html)
+    Mudei a imagem
 
-    limitei o site a uma paleta de cores
+    troquei a paleta de cores
 
-    fiz o css e html do site
-
-    adicionei uma img de teste
+    modifiquei um pouco as areas do site
 
 
 Problemas ou avisos:
 
-    o main está entrando na frente do header
-
-    algumas proporçoes não ficaram tão boas quanto o previsto
-
-    paleta de cores não está boa o sufuiciente
-
-    img de teste precisa ser trocada
-
+    O main continua estranho
 
 o que falta?:
 
     adicionar as outras paginas
 
-    adicionar sistema de comunicação
+    adicionar sistema de comunicação (para reportar ao adm problemas no site)
 
     colocar os book marks do index.html
 
