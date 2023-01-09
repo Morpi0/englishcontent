@@ -15,22 +15,6 @@ body{
     overflow-x: hidden;
 }
 
-.centralize {
-    text-align: center;
-}
-
-
-#cabecalho {
-    border-bottom: #f1325b solid 4px;
-
-    position: sticky;
-    top: 0px;
-
-    height: 60px;
-    width: auto;
-
-    background-color: black;
-}
 .englishContent {
     padding-top: 15px;
     padding-left: 5px;
@@ -41,9 +25,32 @@ body{
     color: #cc2649;
 }
 
+.centralize {
+    text-align: center;
+}
+
+
+#cabecalho {
+    border-bottom: #f1325b solid 4px;
+
+    box-shadow: 0 2px 40px 10px #f54a6f;
+
+    position: sticky;
+    top: 0px;
+
+    height: 60px;
+    width: auto;
+
+    z-index: 1;
+
+    background-color: black;
+}
+
 #Banner {
     height: 400px;
     width: 90%;
+
+    z-index: 2;
 
     border: #66324c solid 3px;
 
@@ -80,25 +87,30 @@ body{
 
     background-color: #003e4f;
 
+    border: #f1325b solid 4px;
+
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 
+    z-index: 2;
     
 }
 #content-Font {
-    /*
     position: relative;
     top: 150px;
     right: -20px;
-*/
+
     text-align: center;
 
     font-family:Georgia, 'Times New Roman', Times, serif;
-    /*background-color: black;*/
+
 }
 
 .content {
+
     border: #992c4b solid 2px;
+
+    box-shadow: 0px 2px 20px 6px #f54a6f;
 
     margin-top: 44px;
     margin-right: auto;
@@ -118,7 +130,10 @@ body{
     background-color: #992c4b;
 }
 .content:hover {
+
     border: #66324c solid 2px;
+
+    box-shadow: 0px 1px 10px 6px #f1325b;
 
     color: #33384e;
 
