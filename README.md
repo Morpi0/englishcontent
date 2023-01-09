@@ -1,15 +1,13 @@
 English content: versão 0.2
 
-    Mudei a imagem
+    adicionei o z-index
 
-    troquei a paleta de cores
-
-    modifiquei um pouco as areas do site
+    modifiquei o css do site
 
 
 Problemas ou avisos:
 
-    O main continua estranho
+    Nenhum*
 
 o que falta?:
 
