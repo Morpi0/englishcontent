@@ -15,6 +15,7 @@ body{
     overflow-x: hidden;
 }
 
+/*modifica um texto*/
 .englishContent {
     padding-top: 15px;
     padding-left: 5px;
@@ -29,7 +30,7 @@ body{
     text-align: center;
 }
 
-
+/*-> header*/
 #cabecalho {
     border-bottom: #f1325b solid 4px;
 
@@ -72,17 +73,14 @@ body{
 */
 
 
-
+/*-> main*/
 #principal {
     padding-top: 20px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 
-    height: 800px;
-    width: 96%;
-
-    height: 600px;
+    height: 700px;
     width: 96%;
 
     background-color: #003e4f;
@@ -105,7 +103,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
-
+/*-> main*/
 .content {
 
     border: #992c4b solid 2px;
@@ -143,7 +141,7 @@ body{
     height: 45px;
 }
 
-
+/*-> footer*/
 #sobre {
     
     height: 250px;
@@ -158,6 +156,8 @@ body{
     margin-right: auto;
 
     background-color: #000;
+
+    z-index: 3;
 }
 .paragrafo_Sobre {
     margin-top: 25px;
